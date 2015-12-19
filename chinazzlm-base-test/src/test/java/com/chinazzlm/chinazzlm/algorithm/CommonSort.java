@@ -7,11 +7,19 @@ package com.chinazzlm.chinazzlm.algorithm;
 public interface CommonSort {
 	/**
 	 * 小鸡问题
-	 * 公鸡母鸡小鸡的问题有一百块钱,公鸡5元一只,母鸡3元一只,小鸡1元一只,问分别能买多少只公鸡,母鸡,小鸡?
-	 * x,y,z  打印出就好
-	 * @param x
-	 * @param y
-	 * @param z
+	 * 公鸡母鸡小鸡的问题有一百块钱,公鸡5元一只,母鸡3元一只,小鸡1元3只,问分别能买多少只公鸡,母鸡,小鸡?
+	 * 
 	 */
-    public void chick(int x,int y,int z);
+    public void chick();
+    /**
+     * 冒泡排序
+     * @param b
+     */
+    public void bubble_sort(int [] b);
+    
+    /**
+     * 快速排序
+     * @param q
+     */
+    public void quick_sort(int [] q);
 }
